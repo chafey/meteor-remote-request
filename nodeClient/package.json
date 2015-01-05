@@ -1,0 +1,13 @@
+{
+  "name": "nodeClient",
+  "version": "1.0.0",
+  "description": "node client for receiving remote requests from meteor server via ddp",
+  "repository": {
+    "type": "git",
+    "url" : "https://github.com/chafey/meteor-remote-request"
+  },
+  "dependencies": {
+    "ddp": "0.9.4",
+    "meteor-job": "0.0.15"
+  }
+}
