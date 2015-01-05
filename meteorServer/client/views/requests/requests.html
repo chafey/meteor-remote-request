@@ -1,0 +1,24 @@
+<template name="requests">
+    <div>
+        <table class="table table-bordered table-striped">
+            <thead>
+            <tr>
+                <th class="col-md-2">Status</th>
+                <th class="col-md-4">Query</th>
+                <th class="col-md-4">Request Id</th>
+                <th class="col-md-4">Result</th>
+            </tr>
+            </thead>
+            <tbody>
+            {{#each requests}}
+                <tr >
+                    <th>{{status}}</th>
+                    <th>{{data.query}}</th>
+                    <th>{{data.requestId}}</th>
+                    <th>{{result}}</th>
+                </tr>
+            {{/each}}
+            </tbody>
+        </table>
+    </div>
+</template>

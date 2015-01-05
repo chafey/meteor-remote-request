@@ -1,7 +1,15 @@
 {
   "name": "nodeClient",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "node client for receiving remote requests from meteor server via ddp",
+  "keywords" : [
+    "meteor",
+    "ddp",
+    "remote invocation"
+  ],
+  "author": "Chris Hafey",
+  "license": "MIT",
+  "homepage": "https://github.com/chafey/meteor-remote-request",
   "repository": {
     "type": "git",
     "url" : "https://github.com/chafey/meteor-remote-request"

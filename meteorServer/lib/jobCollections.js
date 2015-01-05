@@ -1,0 +1,1 @@
+RequestJobs = new JobCollection('requestJobs');
